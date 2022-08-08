@@ -15,6 +15,6 @@ pip install matplotlib
 # Using the scripts
 Run the program by opening PowerShell or Command Prompt in the Python folder and running the command 
 ```powershell
-python plot-spectrum.py
+python spectrum_plot.py
 ```
 Type in file names without extension.
