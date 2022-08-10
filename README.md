@@ -1,5 +1,5 @@
 # plot-spectrum
-Script for plotting spectral distribution from a .csv file.
+Script for plotting spectral distribution from a .csv file. Columns should be separated by a tab (\t). First column: wavelengths, second column: intensities.
 
 # Installation
 - Copy spectral distribution data into a "Spectrum" folder in the same directory as the script.
@@ -13,8 +13,5 @@ pip install matplotlib
 ```
 
 # Using the scripts
-Run the program by opening PowerShell or Command Prompt in the Python folder and running the command 
-```powershell
-python spectrum_plot.py
-```
-Type in file names without extension.
+Run the program by start run.bat.
+Type in file names without file extension.
