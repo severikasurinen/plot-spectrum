@@ -13,5 +13,5 @@ pip install matplotlib
 ```
 
 # Using the scripts
-Run the program by start run.bat.
+Run the program by starting run.bat.
 Type in file names without file extension.
