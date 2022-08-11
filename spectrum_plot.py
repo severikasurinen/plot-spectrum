@@ -95,7 +95,8 @@ def read_csv(in_name):
                     raw_cells[i][o] = raw_cells[i][o].strip()
                     if raw_cells[i][o] != '':
                         try:
-                            raw_cells[i][o] = float(raw_cells[i][o])
+                            # Use proper decimal separator and convert to float
+                            raw_cells[i][o] = float(raw_cells[i][o].replace(',', '.'))
                         except:
                             pass
                         cells[i].append(raw_cells[i][o])
